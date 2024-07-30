@@ -1,0 +1,43 @@
+body{
+    background-color: #262626;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 0 2px 20px#fff;/*search*/
+    color: #fff;
+    text-transform: uppercase;
+    margin: 2% 0 0;
+}
+.wrapper{
+    width: 90%;
+    display: flex;
+    height: 70vh;
+    margin: 2% auto 0;
+}
+
+ .single-img{
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 500ms cubic-bezier(.14,.69,.93,1);
+ }
+.single-img:hover{
+    flex-basis:30vw;
+}
+
+
+/* @media only screen and (max-width: 768px) and (max-width: 991px){
+    .wrapper{
+        width: 100%;
+    }
+} */
+
+/* @media only screen and (max-width: 767px){
+    .wrapper{
+        width: 100%;
+    }
+} */

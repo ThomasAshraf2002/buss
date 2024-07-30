@@ -1,0 +1,26 @@
+body{
+    background-color: #262626;
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 2px 20px #fff;
+    margin: 2% 0;
+}
+
+.container{
+    display: flex;
+    width: 90%;
+    height: 70vh;
+}
+
+.image{
+    flex: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    width: 90%;
+}
